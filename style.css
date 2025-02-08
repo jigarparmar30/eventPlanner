@@ -187,7 +187,7 @@ width: 35rem;
 .Gallery .box-container .box img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .Gallery .box-container .box:hover img  {
@@ -359,6 +359,16 @@ font-size: 2rem;
     .home .home-slider .swiper-slide {
         width: 27rem;
 
+    }
+
+    .Gallery .box-container .box { 
+        position: relative;
+        border: 1rem solid #333;
+        border-radius: 0.5rem;
+        height: 70rem;
+        cursor: pointer;
+        overflow: hidden;
+      
     }
 
     
